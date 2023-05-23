@@ -154,7 +154,7 @@ p {
   width: 90%;
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.8em;
 }
 
@@ -167,7 +167,6 @@ p {
 
 .buttons {
   width: 75%;
-  height: 50px;
   background-color: rgb(94, 94, 143);
   border: none;
   border-radius: 10px;
@@ -176,6 +175,9 @@ p {
   font-size: 0.9em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
+  line-height: 1.7em;
+  white-space: normal;
+  padding: 10px;
 }
 
 button:hover {
