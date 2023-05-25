@@ -108,28 +108,29 @@ header {
   width: 100%;
 }
 
-h1{
+h1 {
   font-family: 'Yellowtail', cursive;
   font-size: 4.5em;
   line-height: 1.2;
 }
 
-h2{
+h2 {
   font-family: 'Sacramento', cursive;
   font-size: 3em;
   font-weight: 500;
 }
 
-h3{
+h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   font-weight: 500;
 }
 
-h4{
+h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.8em;
   line-height: 0.8;
+  font-weight: 500;
 }
 
 .story-div {
@@ -163,6 +164,7 @@ p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  margin-bottom: 30px;
 }
 
 .buttons {
@@ -170,7 +172,7 @@ p {
   background-color: rgb(94, 94, 143);
   border: none;
   border-radius: 10px;
-  margin: 20px;
+  margin: 15px;
   color: white;
   font-size: 0.9em;
   font-family: 'Open Sans', sans-serif;
@@ -292,8 +294,32 @@ button:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+
+  p {
+    width: 70%;
+  }
+
+  .buttons{
+    width: 60%;
+  }
+
+  img {
+    width: 400px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  p {
+    width: 51%;
+  }
+
+  .buttons{
+    width: 51%;
+  }
+
 }
 
 @media print,

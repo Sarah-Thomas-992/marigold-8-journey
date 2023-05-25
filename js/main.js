@@ -3,30 +3,30 @@ const getStarted = document.querySelector("#get-started");
 const beginStory = document.querySelector("#begin-story");
 
 const oneA = document.querySelector("#one-A");
-// const oneB = document.querySelector("#1B");
+const oneB = document.querySelector("#one-B");
 
-// const twoAA = document.querySelector("#2AA");
-// const twoAB = document.querySelector("#2AB");
-// const twoBA = document.querySelector("#2BA");
-// const twoBB = document.querySelector("#2BB");
+const twoAA = document.querySelector("#two-AA");
+const twoAB = document.querySelector("#two-AB");
+const twoBA = document.querySelector("#two-BA");
+const twoBB = document.querySelector("#two-BB");
 
-// const threeAA = document.querySelector("#3AA");
-// const threeAB = document.querySelector("#3AB");
-// const threeBA = document.querySelector("#3BA");
-// const threeBB = document.querySelector("#3BB");
-// const threeCA = document.querySelector("#3CA");
-// const threeCB = document.querySelector("#3CB");
-// const threeDA = document.querySelector("#3DA");
-// const threeDB = document.querySelector("#3DB");
+const threeAA = document.querySelector("#three-AA");
+const threeAB = document.querySelector("#three-AB");
+const threeBA = document.querySelector("#three-BA");
+const threeBB = document.querySelector("#three-BB");
+const threeCA = document.querySelector("#three-CA");
+const threeCB = document.querySelector("#three-CB");
+const threeDA = document.querySelector("#three-DA");
+const threeDB = document.querySelector("#three-DB");
 
-// const returnOne = document.querySelector(".return1");
-// const returnTwo = document.querySelector(".return2");
-// const returnThree = document.querySelector(".return3");
-// const returnFour = document.querySelector(".return4");
-// const returnFive = document.querySelector(".return5");
-// const returnSix = document.querySelector(".return6");
-// const returnSeven = document.querySelector(".return7");
-// const returnEight = document.querySelector(".return8");
+const returnOne = document.querySelector(".return1");
+const returnTwo = document.querySelector(".return2");
+const returnThree = document.querySelector(".return3");
+const returnFour = document.querySelector(".return4");
+const returnFive = document.querySelector(".return5");
+const returnSix = document.querySelector(".return6");
+const returnSeven = document.querySelector(".return7");
+const returnEight = document.querySelector(".return8");
 
 
 // Div variables 
