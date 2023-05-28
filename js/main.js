@@ -19,14 +19,14 @@ const threeCB = document.querySelector("#three-CB");
 const threeDA = document.querySelector("#three-DA");
 const threeDB = document.querySelector("#three-DB");
 
-const returnOne = document.querySelector(".return1");
-const returnTwo = document.querySelector(".return2");
-const returnThree = document.querySelector(".return3");
-const returnFour = document.querySelector(".return4");
-const returnFive = document.querySelector(".return5");
-const returnSix = document.querySelector(".return6");
-const returnSeven = document.querySelector(".return7");
-const returnEight = document.querySelector(".return8");
+const returnFeelGood = document.querySelector(".return1");
+const returnHorror = document.querySelector(".return2");
+const returnRomance = document.querySelector(".return3");
+const returnFantasy = document.querySelector(".return4");
+const returnTrueCrime = document.querySelector(".return5");
+const returnThriller = document.querySelector(".return6");
+const returnSciFi = document.querySelector(".return7");
+const returnDystopian = document.querySelector(".return8");
 
 
 // Div variables 
@@ -43,23 +43,86 @@ const thirdChoiceTwo = document.querySelector(".third-choice2");
 const thirdChoiceThird = document.querySelector(".third-choice3");
 const thirdChoiceFour = document.querySelector(".third-choice4");
 
-const finalOne = document.querySelector(".final1");
-const finalTwo = document.querySelector(".final2");
-const finalThree = document.querySelector(".final3");
-const finalFour = document.querySelector(".final4");
-const finalFive = document.querySelector(".final5");
-const finalSix = document.querySelector(".final6");
-const finalSeven = document.querySelector(".final7");
-const finalEight = document.querySelector(".final8");
+const finalFeelGood = document.querySelector(".final1");
+const finalHorro = document.querySelector(".final2");
+const finalRomance = document.querySelector(".final3");
+const finalFantasy = document.querySelector(".final4");
+const finalTrueCrime = document.querySelector(".final5");
+const finalThriller = document.querySelector(".final6");
+const finalSciFi = document.querySelector(".final7");
+const finalDystopian = document.querySelector(".final8");
 
 
 // Story buttons
 getStarted.addEventListener("click", function(){
     header.classList.add("hide");
     intro.classList.remove("hide");
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    }); 
 });
 
 beginStory.addEventListener("click", function(){
     intro.classList.add("hide");
     firstChoice.classList.remove("hide");
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    });
 });
+
+oneA.addEventListener("click", function(){
+    firstChoice.classList.add("hide");
+    secondChoiceOne.classList.remove("hide");
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    });
+});
+
+oneB.addEventListener("click", function(){
+    firstChoice.classList.add("hide");
+    secondChoiceTwo.classList.remove("hide");
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    });
+});
+
+twoAA.addEventListener("click", function(){
+    secondChoiceOne.classList.add("hide");
+    thirdChoiceOne.classList.remove("hide");
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    });
+});
+
+twoAB.addEventListener("click", function(){
+    secondChoiceOne.classList.add("hide");
+    thirdChoiceTwo.classList.remove("hide");
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    });
+});
+
+twoBA.addEventListener("click", function(){
+    secondChoiceTwo.classList.add("hide");
+    thirdChoiceThird.classList.remove("hide");
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    });
+});
+
+twoBB.addEventListener("click", function(){
+    secondChoiceTwo.classList.add("hide");
+    thirdChoiceFour.classList.remove("hide");
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    });
+});
+
