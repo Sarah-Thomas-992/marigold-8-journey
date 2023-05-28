@@ -44,7 +44,7 @@ const thirdChoiceThird = document.querySelector(".third-choice3");
 const thirdChoiceFour = document.querySelector(".third-choice4");
 
 const finalFeelGood = document.querySelector(".final1");
-const finalHorro = document.querySelector(".final2");
+const finalHorror = document.querySelector(".final2");
 const finalRomance = document.querySelector(".final3");
 const finalFantasy = document.querySelector(".final4");
 const finalTrueCrime = document.querySelector(".final5");
@@ -52,8 +52,15 @@ const finalThriller = document.querySelector(".final6");
 const finalSciFi = document.querySelector(".final7");
 const finalDystopian = document.querySelector(".final8");
 
+//Body elements
+const body = document.querySelector("body");
+const para1 = document.querySelector(".para1");
+const para2 = document.querySelector(".para2");
+const para3 = document.querySelector(".para3");
+const heading3 = document.querySelector("h3");
 
-// Story buttons
+
+// Story event listners 
 getStarted.addEventListener("click", function(){
     header.classList.add("hide");
     intro.classList.remove("hide");
@@ -125,4 +132,27 @@ twoBB.addEventListener("click", function(){
         behavior:'smooth'
     });
 });
+
+threeAA.addEventListener("click", function(){
+    thirdChoiceOne.classList.add("hide");
+    finalFeelGood.classList.remove("hide");
+
+    window.scrollTo({
+        top: 0,
+        behavior:'smooth'
+    });
+});
+
+threeAA.addEventListener("click", function(){
+    body.style.backgroundColor = 'lemonchiffon';
+    para1.style.color = 'dimgray';
+    para2.style.color = 'dimgray';
+    para3.style.color = 'dimgray';
+    returnFeelGood.style.backgroundColor = 'gold';
+    returnFeelGood.style.color = 'dimgray';
+    heading3.style.color = 'dimgray';
+});
+
+
+
 
