@@ -55,102 +55,124 @@ const finalDystopian = document.querySelector(".final8");
 //Body elements
 const body = document.querySelector("body");
 const para1 = document.querySelector(".para1");
-const para2 = document.querySelector(".para2");
-const para3 = document.querySelector(".para3");
 const heading3 = document.querySelector("h3");
 
+//Scrolling function
+const scrollToTop = function(){
+    window.scrollTo(0,0);
+};
 
 // Story event listners 
 getStarted.addEventListener("click", function(){
     header.classList.add("hide");
     intro.classList.remove("hide");
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    }); 
+    scrollToTop();
 });
 
 beginStory.addEventListener("click", function(){
     intro.classList.add("hide");
     firstChoice.classList.remove("hide");
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    });
+    scrollToTop();
 });
 
 oneA.addEventListener("click", function(){
     firstChoice.classList.add("hide");
     secondChoiceOne.classList.remove("hide");
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    });
+    scrollToTop();
 });
 
 oneB.addEventListener("click", function(){
     firstChoice.classList.add("hide");
     secondChoiceTwo.classList.remove("hide");
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    });
+    scrollToTop();
 });
 
 twoAA.addEventListener("click", function(){
     secondChoiceOne.classList.add("hide");
     thirdChoiceOne.classList.remove("hide");
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    });
+    scrollToTop();
 });
 
 twoAB.addEventListener("click", function(){
     secondChoiceOne.classList.add("hide");
     thirdChoiceTwo.classList.remove("hide");
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    });
+    scrollToTop();
 });
 
 twoBA.addEventListener("click", function(){
     secondChoiceTwo.classList.add("hide");
     thirdChoiceThird.classList.remove("hide");
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    });
+    scrollToTop();
 });
 
 twoBB.addEventListener("click", function(){
     secondChoiceTwo.classList.add("hide");
     thirdChoiceFour.classList.remove("hide");
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    });
+    scrollToTop();
 });
 
 threeAA.addEventListener("click", function(){
     thirdChoiceOne.classList.add("hide");
     finalFeelGood.classList.remove("hide");
-
-    window.scrollTo({
-        top: 0,
-        behavior:'smooth'
-    });
-});
-
-threeAA.addEventListener("click", function(){
     body.style.backgroundColor = 'lemonchiffon';
     para1.style.color = 'dimgray';
-    para2.style.color = 'dimgray';
-    para3.style.color = 'dimgray';
     returnFeelGood.style.backgroundColor = 'gold';
     returnFeelGood.style.color = 'dimgray';
+    returnFeelGood.style.hover = 'beige';
     heading3.style.color = 'dimgray';
+    scrollToTop();
+});
+
+returnFeelGood.addEventListener("click", function(){
+    finalFeelGood.classList.add("hide");
+    header.classList.remove("hide");
+    body.style.backgroundColor = 'rgb(56, 56, 84)';
+    para1.style.color = 'white';
+    returnFeelGood.style.backgroundColor = 'rgb(94, 94, 143)';
+    returnFeelGood.style.color = 'white';
+    heading3.style.color = 'white';
+    scrollToTop();
+});
+
+threeAB.addEventListener("click", function(){
+    thirdChoiceOne.classList.add("hide");
+    finalHorror.classList.remove("hide");
+    body.style.backgroundColor = 'rgb(65, 41, 41)';
+    returnHorror.style.backgroundColor = 'rgb(40, 19, 19)';
+    scrollToTop();
+});
+
+returnHorror.addEventListener("click", function(){
+    finalHorror.classList.add("hide");
+    header.classList.remove("hide");
+    body.style.backgroundColor = 'rgb(56, 56, 84)';
+    para1.style.color = 'white';
+    returnHorror.style.backgroundColor = 'rgb(94, 94, 143)';
+    returnHorror.style.color = 'white';
+    heading3.style.color = 'white';
+    scrollToTop();
+});
+
+threeBA.addEventListener("click", function(){
+    thirdChoiceTwo.classList.add("hide");
+    finalRomance.classList.remove("hide");
+    body.style.backgroundColor = 'indianred';
+    para1.style.color = 'mistyrose';
+    returnRomance.style.backgroundColor = 'rgb(159, 45, 45)';
+    returnRomance.style.color = 'mistyrose';
+    heading3.style.color = 'mistyrose';
+    scrollToTop();
+});
+
+returnRomance.addEventListener("click", function(){
+    finalRomance.classList.add("hide");
+    header.classList.remove("hide");
+    body.style.backgroundColor = 'rgb(56, 56, 84)';
+    para1.style.color = 'white';
+    returnRomance.style.backgroundColor = 'rgb(94, 94, 143)';
+    returnRomance.style.color = 'white';
+    heading3.style.color = 'white';
+    scrollToTop();
 });
 
 
