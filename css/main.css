@@ -195,6 +195,35 @@ button:hover {
   display: none;
 }
 
+.return1{
+  background-color: gold;
+  color: dimgray;
+}
+
+.return1:hover{
+  background-color: khaki;
+  transition: 0.5s;
+}
+
+.return2{
+  background-color: rgb(40, 19, 19);
+}
+
+.return2:hover{
+  background-color: rgb(98, 55, 55);
+  transition: 0.5s;
+}
+
+.return3{
+  background-color: rgb(159, 45, 45);
+  color: mistyrose;
+}
+
+.return3:hover{
+  background-color: rgb(216, 147, 147);
+  transition: 0.5s;
+}
+
 
 
 

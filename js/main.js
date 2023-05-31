@@ -58,120 +58,124 @@ const para1 = document.querySelector(".para1");
 const heading3 = document.querySelector("h3");
 
 //Scrolling function
-const scrollToTop = function(){
-    window.scrollTo(0,0);
+const scrollToTop = function () {
+    window.scrollTo(0, 0);
 };
 
 // Story event listners 
-getStarted.addEventListener("click", function(){
+getStarted.addEventListener("click", function () {
     header.classList.add("hide");
     intro.classList.remove("hide");
     scrollToTop();
 });
 
-beginStory.addEventListener("click", function(){
+beginStory.addEventListener("click", function () {
     intro.classList.add("hide");
     firstChoice.classList.remove("hide");
     scrollToTop();
 });
 
-oneA.addEventListener("click", function(){
+oneA.addEventListener("click", function () {
     firstChoice.classList.add("hide");
     secondChoiceOne.classList.remove("hide");
     scrollToTop();
 });
 
-oneB.addEventListener("click", function(){
+oneB.addEventListener("click", function () {
     firstChoice.classList.add("hide");
     secondChoiceTwo.classList.remove("hide");
     scrollToTop();
 });
 
-twoAA.addEventListener("click", function(){
+twoAA.addEventListener("click", function () {
     secondChoiceOne.classList.add("hide");
     thirdChoiceOne.classList.remove("hide");
     scrollToTop();
 });
 
-twoAB.addEventListener("click", function(){
+twoAB.addEventListener("click", function () {
     secondChoiceOne.classList.add("hide");
     thirdChoiceTwo.classList.remove("hide");
     scrollToTop();
 });
 
-twoBA.addEventListener("click", function(){
+twoBA.addEventListener("click", function () {
     secondChoiceTwo.classList.add("hide");
     thirdChoiceThird.classList.remove("hide");
     scrollToTop();
 });
 
-twoBB.addEventListener("click", function(){
+twoBB.addEventListener("click", function () {
     secondChoiceTwo.classList.add("hide");
     thirdChoiceFour.classList.remove("hide");
     scrollToTop();
 });
 
-threeAA.addEventListener("click", function(){
+const returnToNormal = function () {
+    body.style.backgroundColor = 'rgb(56, 56, 84)';
+    para1.style.color = 'white';
+    heading3.style.color = 'white';
+};
+
+threeAA.addEventListener("click", function () {
     thirdChoiceOne.classList.add("hide");
     finalFeelGood.classList.remove("hide");
     body.style.backgroundColor = 'lemonchiffon';
     para1.style.color = 'dimgray';
-    returnFeelGood.style.backgroundColor = 'gold';
-    returnFeelGood.style.color = 'dimgray';
-    returnFeelGood.style.hover = 'beige';
     heading3.style.color = 'dimgray';
     scrollToTop();
 });
 
-returnFeelGood.addEventListener("click", function(){
+returnFeelGood.addEventListener("click", function () {
     finalFeelGood.classList.add("hide");
     header.classList.remove("hide");
-    body.style.backgroundColor = 'rgb(56, 56, 84)';
-    para1.style.color = 'white';
-    returnFeelGood.style.backgroundColor = 'rgb(94, 94, 143)';
-    returnFeelGood.style.color = 'white';
-    heading3.style.color = 'white';
+    returnToNormal();
     scrollToTop();
 });
 
-threeAB.addEventListener("click", function(){
+threeAB.addEventListener("click", function () {
     thirdChoiceOne.classList.add("hide");
     finalHorror.classList.remove("hide");
     body.style.backgroundColor = 'rgb(65, 41, 41)';
-    returnHorror.style.backgroundColor = 'rgb(40, 19, 19)';
     scrollToTop();
 });
 
-returnHorror.addEventListener("click", function(){
+returnHorror.addEventListener("click", function () {
     finalHorror.classList.add("hide");
     header.classList.remove("hide");
-    body.style.backgroundColor = 'rgb(56, 56, 84)';
-    para1.style.color = 'white';
-    returnHorror.style.backgroundColor = 'rgb(94, 94, 143)';
-    returnHorror.style.color = 'white';
-    heading3.style.color = 'white';
+    returnToNormal();
     scrollToTop();
 });
 
-threeBA.addEventListener("click", function(){
+threeBA.addEventListener("click", function () {
     thirdChoiceTwo.classList.add("hide");
     finalRomance.classList.remove("hide");
     body.style.backgroundColor = 'indianred';
     para1.style.color = 'mistyrose';
-    returnRomance.style.backgroundColor = 'rgb(159, 45, 45)';
-    returnRomance.style.color = 'mistyrose';
     heading3.style.color = 'mistyrose';
     scrollToTop();
 });
 
-returnRomance.addEventListener("click", function(){
+returnRomance.addEventListener("click", function () {
     finalRomance.classList.add("hide");
     header.classList.remove("hide");
-    body.style.backgroundColor = 'rgb(56, 56, 84)';
-    para1.style.color = 'white';
-    returnRomance.style.backgroundColor = 'rgb(94, 94, 143)';
-    returnRomance.style.color = 'white';
-    heading3.style.color = 'white';
+    returnToNormal();
+    scrollToTop();
+});
+
+threeBB.addEventListener("click", function () {
+    thirdChoiceTwo.classList.add("hide");
+    finalFantasy.classList.remove("hide");
+    body.style.backgroundColor = 'lavender';
+    para1.style.color = 'black';
+    heading3.style.color = 'black';
+    scrollToTop();
+});
+
+returnFantasy.addEventListener("click", function () {
+    finalFantasy.classList.add("hide");
+    header.classList.remove("hide");
+    returnToNormal();
     scrollToTop();
 });
 
