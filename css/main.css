@@ -173,7 +173,6 @@ p {
 .buttons {
   width: 75%;
   background-color: rgb(94, 94, 143);
-  /* background-color: rgb(159, 45, 45); */
   border: none;
   border-radius: 10px;
   margin: 15px;
@@ -195,6 +194,14 @@ button:hover {
   display: none;
 }
 
+#para1{
+  color: dimgrey; 
+}
+
+#announce1{
+  color: dimgrey; 
+}
+
 .return1{
   background-color: gold;
   color: dimgray;
@@ -214,6 +221,14 @@ button:hover {
   transition: 0.5s;
 }
 
+#para3{
+  color: mistyrose; 
+}
+
+#announce3{
+  color: mistyrose; 
+}
+
 .return3{
   background-color: rgb(159, 45, 45);
   color: mistyrose;
@@ -222,6 +237,14 @@ button:hover {
 .return3:hover{
   background-color: rgb(216, 147, 147);
   transition: 0.5s;
+}
+
+#para4{
+  color: rgb(56, 56, 84); 
+}
+
+#announce4{
+  color: rgb(56, 56, 84); 
 }
 
 
