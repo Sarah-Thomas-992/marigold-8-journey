@@ -55,6 +55,7 @@ const finalDystopian = document.querySelector(".final8");
 //Body elements
 const body = document.querySelector("body");
 const para1 = document.querySelector(".para1");
+const para4 = document.querySelector(".para4");
 const heading3 = document.querySelector("h3");
 
 //Scrolling function
@@ -167,7 +168,7 @@ threeBB.addEventListener("click", function () {
     thirdChoiceTwo.classList.add("hide");
     finalFantasy.classList.remove("hide");
     body.style.backgroundColor = 'lavender';
-    para1.style.color = 'black';
+    para4.style.color = 'black';
     heading3.style.color = 'black';
     scrollToTop();
 });
