@@ -54,9 +54,6 @@ const finalDystopian = document.querySelector(".final8");
 
 //Body elements
 const body = document.querySelector("body");
-const para1 = document.querySelector(".para1");
-const para4 = document.querySelector(".para4");
-const heading3 = document.querySelector("h3");
 
 //Scrolling function
 const scrollToTop = function () {
@@ -114,16 +111,12 @@ twoBB.addEventListener("click", function () {
 
 const returnToNormal = function () {
     body.style.backgroundColor = 'rgb(56, 56, 84)';
-    para1.style.color = 'white';
-    heading3.style.color = 'white';
 };
 
 threeAA.addEventListener("click", function () {
     thirdChoiceOne.classList.add("hide");
     finalFeelGood.classList.remove("hide");
     body.style.backgroundColor = 'lemonchiffon';
-    para1.style.color = 'dimgray';
-    heading3.style.color = 'dimgray';
     scrollToTop();
 });
 
@@ -152,8 +145,6 @@ threeBA.addEventListener("click", function () {
     thirdChoiceTwo.classList.add("hide");
     finalRomance.classList.remove("hide");
     body.style.backgroundColor = 'indianred';
-    para1.style.color = 'mistyrose';
-    heading3.style.color = 'mistyrose';
     scrollToTop();
 });
 
@@ -168,8 +159,6 @@ threeBB.addEventListener("click", function () {
     thirdChoiceTwo.classList.add("hide");
     finalFantasy.classList.remove("hide");
     body.style.backgroundColor = 'lavender';
-    para4.style.color = 'black';
-    heading3.style.color = 'black';
     scrollToTop();
 });
 
