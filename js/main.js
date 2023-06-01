@@ -169,6 +169,20 @@ returnFantasy.addEventListener("click", function () {
     scrollToTop();
 });
 
+threeCA.addEventListener("click", function () {
+    thirdChoiceThird.classList.add("hide");
+    finalTrueCrime.classList.remove("hide");
+    body.style.backgroundColor = 'rgb(78, 78, 78)';
+    scrollToTop();
+});
+
+returnTrueCrime.addEventListener("click", function () {
+    finalTrueCrime.classList.add("hide");
+    header.classList.remove("hide");
+    returnToNormal();
+    scrollToTop();
+});
+
 
 
 

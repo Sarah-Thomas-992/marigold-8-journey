@@ -247,6 +247,24 @@ button:hover {
   color: rgb(56, 56, 84); 
 }
 
+#para5{
+  color: white; 
+}
+
+#announce5{
+  color: white; 
+}
+
+.return5{
+  background-color: rgb(255, 160, 8);
+  color: black;
+}
+
+.return5:hover{
+  background-color: rgb(255, 192, 90);
+  transition: 0.5s;
+}
+
 
 
 
