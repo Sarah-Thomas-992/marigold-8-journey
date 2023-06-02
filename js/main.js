@@ -183,6 +183,20 @@ returnTrueCrime.addEventListener("click", function () {
     scrollToTop();
 });
 
+threeCB.addEventListener("click", function () {
+    thirdChoiceThird.classList.add("hide");
+    finalThriller.classList.remove("hide");
+    body.style.backgroundColor = 'olive';
+    scrollToTop();
+});
+
+returnThriller.addEventListener("click", function () {
+    finalThriller.classList.add("hide");
+    header.classList.remove("hide");
+    returnToNormal();
+    scrollToTop();
+});
+
 
 
 
