@@ -123,9 +123,10 @@ h2 {
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  font-weight: 600;
-  width: 90%;
+  font-weight: 700;
+  width: 80%;
   text-align: center;
+  margin: 20px 0;
 }
 
 h4 {
