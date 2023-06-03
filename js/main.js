@@ -116,7 +116,7 @@ const returnToNormal = function () {
 threeAA.addEventListener("click", function () {
     thirdChoiceOne.classList.add("hide");
     finalFeelGood.classList.remove("hide");
-    body.style.backgroundColor = 'lemonchiffon';
+    body.style.backgroundColor = 'rgb(141, 103, 26)';
     scrollToTop();
 });
 
@@ -192,6 +192,34 @@ threeCB.addEventListener("click", function () {
 
 returnThriller.addEventListener("click", function () {
     finalThriller.classList.add("hide");
+    header.classList.remove("hide");
+    returnToNormal();
+    scrollToTop();
+});
+
+threeDA.addEventListener("click", function () {
+    thirdChoiceFour.classList.add("hide");
+    finalSciFi.classList.remove("hide");
+    body.style.backgroundColor = 'rgb(193, 14, 178)';
+    scrollToTop();
+});
+
+returnSciFi.addEventListener("click", function () {
+    finalSciFi.classList.add("hide");
+    header.classList.remove("hide");
+    returnToNormal();
+    scrollToTop();
+});
+
+threeDB.addEventListener("click", function () {
+    thirdChoiceFour.classList.add("hide");
+    finalDystopian.classList.remove("hide");
+    body.style.backgroundColor = 'rgb(72, 46, 30)';
+    scrollToTop();
+});
+
+returnDystopian.addEventListener("click", function () {
+    finalDystopian.classList.add("hide");
     header.classList.remove("hide");
     returnToNormal();
     scrollToTop();

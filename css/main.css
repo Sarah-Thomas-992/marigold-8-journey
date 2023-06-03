@@ -123,8 +123,8 @@ h2 {
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  font-weight: 500;
-  width: 100%;
+  font-weight: 600;
+  width: 90%;
   text-align: center;
 }
 
@@ -195,20 +195,20 @@ button:hover {
 }
 
 #para1{
-  color: dimgrey; 
+  color: white; 
 }
 
 #announce1{
-  color: dimgrey; 
+  color: white; 
 }
 
 .return1{
-  background-color: gold;
-  color: dimgray;
+  background-color: rgb(101, 74, 18);
+  color: white;
 }
 
 .return1:hover{
-  background-color: khaki;
+  background-color: rgb(224, 182, 67);
   transition: 0.5s;
 }
 
@@ -230,7 +230,7 @@ button:hover {
 }
 
 .return3{
-  background-color: rgb(159, 45, 45);
+  background-color: rgb(151, 67, 67);
   color: mistyrose;
 }
 
@@ -265,6 +265,35 @@ button:hover {
   transition: 0.5s;
 }
 
+.return6{
+  background-color: rgb(67, 85, 37);
+  color: white;
+}
+
+.return6:hover{
+  background-color: rgb(152, 190, 87);
+  transition: 0.5s;
+}
+
+.return7{
+  background-color: rgb(144, 7, 132);
+  color: white;
+}
+
+.return7:hover{
+  background-color: rgb(233, 16, 215);
+  transition: 0.5s;
+}
+
+.return8{
+  background-color: rgb(127, 90, 68);
+  color: white;
+}
+
+.return8:hover{
+  background-color: rgb(207, 161, 133);
+  transition: 0.5s;
+}
 
 
 
