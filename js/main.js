@@ -186,7 +186,7 @@ returnTrueCrime.addEventListener("click", function () {
 threeCB.addEventListener("click", function () {
     thirdChoiceThird.classList.add("hide");
     finalThriller.classList.remove("hide");
-    body.style.backgroundColor = 'olive';
+    body.style.backgroundColor = 'rgb(111, 111, 0)';
     scrollToTop();
 });
 
