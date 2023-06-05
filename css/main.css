@@ -104,7 +104,7 @@ body {
 
 header {
   text-align: center;
-  margin: 100px 0;
+  margin: 50px 0 100px 0;
   width: 100%;
 }
 
@@ -223,16 +223,16 @@ button:hover {
 }
 
 #para3{
-  color: mistyrose; 
+  color: white; 
 }
 
 #announce3{
-  color: mistyrose; 
+  color: white; 
 }
 
 .return3{
   background-color: rgb(151, 67, 67);
-  color: mistyrose;
+  color: white;
 }
 
 .return3:hover{
